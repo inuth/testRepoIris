@@ -2,4 +2,5 @@ sushis
 burgers
 pizzas
 pâtes
+tacos
 reste
