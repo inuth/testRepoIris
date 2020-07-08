@@ -1,0 +1,44 @@
+Par binome : 
+
+créer un repo et y mettre un fichier texte appelé "datas" sur la branche master
+
+Chaque personne devra ensuite créer une branche à son nom et ensuite modifier le fichier "datas"
+
+Ajoutez y des infos (comme votre nom, prénom, ...) puis "pusher" les sur votre branche
+
+modifiez ensuite ces infos (ajoutez en de nouvelles)
+
+une fois fini, faites un merge sur la branche master !
+
+
+
+RECAP
+
+git init 
+
+git clone => récupérer un "projet"
+
+git add XXX => ajouter du fichier dans l'index
+git add . => ajout de tous les fichiers dans l'index
+
+git commit -m "VOTRE COMMENTAIRE" => valide les changements apportés à l'index dans le repository LOCAL !!!
+
+git push => ajouter les fichiers commit au repository distant (= remote repository)
+
+ATTENTION !!! faire un git pull avec de push
+
+git pull => récupérer le code du repository distant
+-> GERER LES CONFLITS !
+
+git branch => savoir dans quelle branche on est et quelles sont les autres branches
+
+git branch XXX => créer une nouvelle branche
+
+git checkout XXX => switch vers la branche XXX
+
+git merge XXX => (XXX = la branche à fusionner) fusionne la branche XXX vers la branche actuelle
+-> faire un checkout avant pour se mettre sur la bonne branche 
+
+
+
+
